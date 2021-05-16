@@ -38,13 +38,13 @@ It contains the following 6 fields:
 Template code is provided in the `B19EE009_B19EE001_B19CSE107.ipynb` notebook file. You will also be required to use `training.1600000.processed.noemoticon.csv` dataset file to complete your work. You can upload this file on the notebook you are using and just edit dataset filr path inside `pd.read_csv`.
  
 **`B19EE009_B19EE001_B19CSE107.ipynb` file structure**
-**1. Load and explore dataset**
+1. Load and explore dataset
    - Null values check
    - Target distribution
    - Tweet label v/s length and word count
    - Word count v/s density plots
 
-**2. Preprocessing**
+2. Preprocessing
    - Remove extra spaces
    - Convert text into lowercase
    - HTMLParser
@@ -58,7 +58,7 @@ Template code is provided in the `B19EE009_B19EE001_B19CSE107.ipynb` notebook fi
    - Replace wrong spellings with correct spellings
    - Lemmatization with POS = verb
  
- **3. Data visualization**
+ 3. Data visualization
      - Word cloud of negative class
      - Word cloud of positive class
      - Plot of top frequent 15 words V/S their count
@@ -68,11 +68,11 @@ Template code is provided in the `B19EE009_B19EE001_B19CSE107.ipynb` notebook fi
         - bi-Gram and tri-gram for document with target 0
         - bi-Gram and tri-gram for document with target 1
  
- **4. Data preparation for training**
+ 4. Data preparation for training
      - Feature Extraction using TF-IDF
      - Train test split
  
- **5. Train and evaluate models**
+5. Train and evaluate models
      - Naive Bayes model 
      - Logistics Regression model
      - Naive Bayes model with (2-gram and 3-gram)
