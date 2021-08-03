@@ -79,3 +79,10 @@ Template code is provided in the `B19EE009_B19EE001_B19CSE107.ipynb` notebook fi
      - Logistics Regression model (2-gram and 3-gram)
      - Naive Bayes model with ((1,2) gram)
      - Logistics Regression model ((1,2) gram)
+
+## Collaborators
+|Name|Year|Branch|
+|--|--|--|
+|Sahil Harpal|Sophomore|CSE|
+|Aniket Wani|Sophomore|EE|
+|Anchal|Sophomore|EE|
